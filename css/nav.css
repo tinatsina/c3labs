@@ -188,3 +188,43 @@ ul li{
   }
   #fir11{
   }
+
+/*THE CSS FOR THE FOOTER SECTION*/
+  .footicons{
+    text-align: center;
+    background: linear-gradient(to bottom, #F8C26D 8%, #FD9E06 100%);
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
+  }
+  .footp{
+    font-size: 10px;
+  }
+  .fa {
+    padding: 2px;
+    align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+    transform: scale(1.5);
+  }
+
+  .fa-facebook {
+    color: #3757C7;
+  }
+  .fa-twitter {
+    color: #55ACEE;
+  }
+  .fa-whatsapp{
+    color: #27CD53;
+  }
+  .fa-wechat{
+    color: #06A330;
+  }
+  .fa-youtube-play{
+    color: #FF0800;
+  }
+
+  hr {
+  width: 35%;
+  }
