@@ -3,6 +3,11 @@ body{
   background-color: blue;
 }
 
+footer{
+  margin-top: 3%;
+  text-align: center;
+}
+
 .footicons{
   text-align: center;
   background: linear-gradient(to bottom, #F8C26D 8%, #FD9E06 100%);
@@ -13,7 +18,7 @@ body{
   font-size: 10px;
 }
 .fa {
-  padding: 2px;
+  padding: 0.3%;
   align: center;
   text-decoration: none;
 }
@@ -37,36 +42,34 @@ body{
   color: #FF0800;
 }
 
-hr {width: 35%;}
 
-.backg{
+hr {
+  width: 35%;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.content{
   background:red /*linear-gradient(to right, #FFFEFF 10%,  #EBE5EA 100%)*/;
-  border-radius: 5%;
-  text-align: center;
-  margin-bottom: 5%;
-  padding-top: 2%;
+  border-radius: 2%;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
+
+.contimg{
+  width: 40%;
+  height: 40%;
+
 }
 
 .container{
-  width: 80%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  width: 100%;
   margin: auto;
-  margin-top: 10%;
+  background-color: white;
 }
-
-/*.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
-.top-container {
-  padding: 10px;
-  background-color: #1A1A1A;
-}*/
 
 .links{
   padding-top: 1.5%;
@@ -85,6 +88,10 @@ padding-top: 1%;
   width: 100%;
 }
 
+.icon{
+  padding-right: 2%;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -97,7 +104,6 @@ padding-top: 1%;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  /*padding: 10px 12px;*/
   text-decoration: none;
   font-size: 20px;
 }
@@ -142,4 +148,38 @@ padding-top: 1%;
     display: block;
     text-align: left;
   }
+}
+
+@media screen and (min-width:400px) {
+  .container{
+    margin-top: 24%;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .container{
+    margin-top: 14%;
+  }
+}
+
+
+_::-webkit-full-page-media, _:future, :root .safari_only, .container {
+    margin-top: 12%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+    .chrome, .container{
+        margin-top: 2%;
+    }
+    footer{
+      font-size: 30px;
+    }
+    .fa {
+      padding: 0.2%;}
+    .footp{
+        font-size: 14px;
+      }
+      .links{
+        padding-bottom: 2.5%;
+      }
 }
