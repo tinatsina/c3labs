@@ -1,6 +1,8 @@
 body{
   margin: 0;
-  background-color: blue;
+  background-image: url("website.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 footer{
@@ -68,7 +70,6 @@ hr {
   padding-bottom: 1%;
   width: 100%;
   margin: auto;
-  background-color: white;
 }
 
 .links{
@@ -82,7 +83,7 @@ height: 50px;
 padding-top: 1%;
 }
 
-#header{
+.header{
   position: fixed;
   top: 0px;
   width: 100%;
@@ -94,7 +95,6 @@ padding-top: 1%;
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
   overflow: hidden;
 }
 
@@ -169,7 +169,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only, .container {
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
     .chrome, .container{
-        margin-top: 2%;
+        margin-top: 12%;
     }
     footer{
       font-size: 30px;
