@@ -1,6 +1,6 @@
 :root{
-  --color1: #ef5777;
-  --color2: #575fcf;
+  --color1: #711880;
+  --color2: #FFFFFF;
 }
 
 body{
@@ -81,8 +81,12 @@ hr {
 }
 
 .links{
-  padding-top: 1.5%;
-  padding-left: 1%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.name{
+  margin-right: 8%;
 }
 
 #mylogo{
@@ -112,7 +116,7 @@ padding-top: 1%;
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   text-decoration: none;
   font-size: 20px;
@@ -121,7 +125,7 @@ padding-top: 1%;
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: ;
-  color: black;
+  color: grey;
 }
 
 /* Add an active class to highlight the current page */
