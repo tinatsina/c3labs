@@ -1,14 +1,22 @@
+:root{
+  --color1: #ef5777;
+  --color2: #575fcf;
+}
+
 body{
   margin: 0;
   background-image: url("img/website.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 140vh;
 }
 
 footer{
   margin-top: 3%;
   text-align: center;
 }
+
+
 
 .footicons{
   text-align: center;
@@ -52,7 +60,7 @@ hr {
 }
 
 .content{
-  background:red /*linear-gradient(to right, #FFFEFF 10%,  #EBE5EA 100%)*/;
+  background:linear-gradient(to right, #EBE5EA 30%,  #575fcf 100%);
   border-radius: 2%;
   width: 80%;
   margin-left: 10%;
@@ -87,6 +95,8 @@ padding-top: 1%;
   position: fixed;
   top: 0px;
   width: 100%;
+  background: var(--color1);
+  transition: all 350ms ease-out;
 }
 
 .icon{
