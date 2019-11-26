@@ -38,22 +38,27 @@ if (x.className === "topnav") {
 
 
 <section id="section1">
-  <div id="section1-text-paragraph" class="section1-text">
-    <h1 class="section1-text" >Lorem ipsum dolor sit amet</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <button id="button1" type="button" name="button">Learn More</button>
-    <button id="button2" type="button" name="button">Apply</button>
+  <div id="section1-content">
+    <div class="">
+      <h1 class="section1-text" >Lorem ipsum dolor sit amet</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <button id="button1" type="button" name="button">Learn More</button>
+        <button id="button2" type="button" name="button">Apply</button>
+    </div>
+      <div class="">
+        <img src="img/1 (8).jpg" alt="" id="rope">
+      </div>
   </div>
-  <img src="img/1 (8).jpg" alt="" height="400px" width="400px" id="rope"> <br>
 </section>
 
+<!--THE COUNTRY SECTION OF THE SITE-->
 <section class="container">
   <div class="content">
-    <div class="countries">
+    <div id="countries1" class="countries">
       <img src="img/2 (1).png" class="contimg" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -61,7 +66,20 @@ if (x.className === "topnav") {
         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
-    <div class="countries">
+
+    <!-- The Modal for first country-->
+    <div id="myModal1" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>THIS IS THE CONTENT OF THE FIRST COUNTRY</p>
+      </div>
+      <script src="js/modal1.js"></script>
+      </div>
+
+
+
+    <div id="countries2" class="countries">
       <img src="img/2 (1).png" class="contimg" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -69,10 +87,22 @@ if (x.className === "topnav") {
         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
+
+    <!-- The Modal for second country-->
+    <div id="myModal2" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>THIS IS THE CONTENT OF THE SECOND COUNTRY</p>
+      </div>
+      <script src="js/modal2.js"></script>
+      </div>
+      <script src="js/modalflex.js"></script>
     </div>
 
     <div class="content">
-    <div class="countries">
+
+    <div id="countries" class="countries">
       <img src="img/2 (1).png" class="contimg" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -80,7 +110,8 @@ if (x.className === "topnav") {
         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
-    <div class="countries">
+
+    <div id="countries" class="countries">
       <img src="img/2 (1).png" class="contimg" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -91,7 +122,7 @@ if (x.className === "topnav") {
   </div>
 
   <div class="content">
-  <div class="countries">
+  <div id="countries" class="countries">
     <img src="img/2 (1).png" class="contimg" alt="">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -99,7 +130,7 @@ if (x.className === "topnav") {
       nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
   </div>
-  <div class="countries">
+  <div id="countries" class="countries">
     <img src="img/2 (1).png" class="contimg" alt="">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
