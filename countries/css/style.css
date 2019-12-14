@@ -19,6 +19,14 @@ body {
   background: #fff;
 }
 
+.logo{
+	width:6%;
+	height:10%;
+	position: fixed;
+  z-index: 2000;
+  margin:0.8%;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
