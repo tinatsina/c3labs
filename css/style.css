@@ -237,13 +237,10 @@ header .intro-text {
 	padding: 0;
 	background: #f6f6f6;
 }
-#about h2::after {
-	bottom: 0;
-	margin-left: 0;
-	left: 0;
-}
+
 #about .about-text {
 	padding: 80px 0;
+
 }
 #about .about-img {
 	background: #444 url(../img/gallery-bg.jpg) center center no-repeat;
@@ -311,11 +308,7 @@ header .intro-text {
 #team {
 	padding: 120px 0;
 }
-#team h2::after {
-	bottom: 0;
-	margin-left: 0;
-	left: 0;
-}
+
 #team img {
 	max-width: 550px;
 }
@@ -494,7 +487,7 @@ color: #999;
 .border{
   width: 115px;
   height: 2px;
-  background: red;
+  background: #d43031;
   margin: 40px auto;
 }
 .services-container{
@@ -527,7 +520,7 @@ color: #999;
 	height: 70px;
 	border: 3px solid black;
 	color: black;
-	transform: rotate(45deg);
+transform: rotate(45deg);
 	margin-bottom: 30px;
 	margin-top: 16px;
 	transition: 0.3s linear;
