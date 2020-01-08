@@ -554,8 +554,9 @@ transform: rotate(45deg);
   }
 }
 
-@media screen and (max-width:400px) {
-	.team-img {
+@media screen and (min-width:400px) {
+	#team .dog {
 		display: block;
+		width: 100%;
 	}
   }
