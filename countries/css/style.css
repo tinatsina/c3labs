@@ -700,7 +700,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(0, 0, 0, 0.08);
 }
 .fh5co-heading p {
-  font-size: 14px;
+  font-size: 25px;
 }
 
 #fh5co-testimonial {
@@ -1644,6 +1644,14 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.col-md-6{
+  width: 70%;
+}
+
+.col-md-offset-3{
+  margin-left: 15%;
 }
 
 /*# sourceMappingURL=style.css.map */
