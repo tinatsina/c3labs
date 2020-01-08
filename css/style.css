@@ -553,3 +553,9 @@ transform: rotate(45deg);
     max-width: 100%;
   }
 }
+
+@media screen and (max-width:400px) {
+	.team-img {
+		display: block;
+	}
+  }
