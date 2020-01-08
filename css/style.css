@@ -474,6 +474,7 @@ color: #999;
   background: url(bg.jpg);
   background-size: cover;
   padding: 60px 0;
+
 }
 .inner-width{
   width: 100%;
@@ -484,14 +485,16 @@ color: #999;
 }
 .section-title{
   text-align: center;
-  color: #ddd;
+  color: black;
   text-transform: uppercase;
   font-size: 30px;
+	margin-bottom: 2px;
+	line-height: 0px;
 }
 .border{
-  width: 160px;
+  width: 115px;
   height: 2px;
-  background: #82ccdd;
+  background: red;
   margin: 40px auto;
 }
 .services-container{
