@@ -553,3 +553,11 @@ transform: rotate(45deg);
     max-width: 100%;
   }
 }
+
+
+@media screen and (min-width:400px) {
+	#team .dog {
+		display: block;
+		width: 100%;
+	}
+  }
