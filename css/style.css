@@ -177,14 +177,31 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
 	background-color: #e5e5e5;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	animation: slide 20s infinite;
+	background-size:cover;
+ background-position:center;
+ height:100vh;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+ padding:0;
+
+
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.4);
+	background-size:cover;
+ background-position:center;
+ height:100vh;
+ width: 100%;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+ padding: auto;
+
 }
 .intro h1 {
 	font-family: 'Rochester', cursive;
@@ -555,7 +572,7 @@ transform: rotate(45deg);
 }
 
 
-@media screen and (min-width:400px) {
+@media screen and (max-width:400px) {
 	#team .dog {
 		display: block;
 		width: 100%;
