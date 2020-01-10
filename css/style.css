@@ -149,8 +149,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .section-title hr {
 	margin: 0 auto;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
+
+.section-title h2{
+	margin-top: 0px;
+}
+
 .btn-custom {
 	text-transform: uppercase;
 	color: #777;
@@ -284,29 +289,29 @@ header .intro-text {
 	margin: 0 auto;
 }
 #restaurant-menu .menu-section {
-	margin: 0 20px 80px;
+
 }
 #restaurant-menu .menu-section-title {
 	font-size: 32px;
-	display: block;
 	font-weight: 400;
 	color: #444;
 	margin: 20px 0;
 	text-align: center;
 }
+
 #restaurant-menu .menu-item {
-	margin: 45px 0;
 	font-size: 18px;
+	width: 100%;
 }
 #restaurant-menu .menu-item-name {
 	font-weight: 400;
 	font-size: 20px;
 	color: #444;
-	margin-bottom: 10px;
 }
 #restaurant-menu .menu-item-description {
+	margin: auto;
 	font-size: 15px;
-	width: 85%;
+	width: 100%;
 }
 #restaurant-menu .menu-item-price {
 	float: right;
@@ -314,6 +319,21 @@ header .intro-text {
 	color: #555;
 	margin-top: -36px;
 }
+
+.ten{
+	width: 70%;
+	margin: auto;
+}
+
+.country-content{
+	width: 70%;
+	margin: auto;
+}
+
+.learnmore{
+	margin-top: -45px;
+}
+
 /* Gallery Section */
 #gallery {
 	padding: 0;
@@ -572,9 +592,12 @@ transform: rotate(45deg);
 }
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
 	#team .dog {
 		display: block;
+		width: 100%;
+	}
+	.ten{
 		width: 100%;
 	}
   }
