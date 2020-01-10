@@ -597,6 +597,7 @@ transform: rotate(45deg);
 		display: block;
 		width: 100%;
 	}
+
 	.ten{
 		width: 100%;
 	}
@@ -606,8 +607,8 @@ transform: rotate(45deg);
 	  width: auto;
 	  height: auto;
 	  background: #27ae60;
-	  bottom: 40px;
-	  right: 50px;
+	  bottom: 20px;
+	  right: 5px;
 
 	  text-decoration: none;
 	  text-align: center;
