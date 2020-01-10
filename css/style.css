@@ -606,13 +606,12 @@ transform: rotate(45deg);
 	  position: fixed;
 	  width: auto;
 	  height: auto;
-	  background: #27ae60;
+	  background: gray;
 	  bottom: 20px;
 	  right: 5px;
-
 	  text-decoration: none;
 	  text-align: center;
 	  line-height: 50px;
-	  color: white;
+	  color: black;
 	  font-size: 22px;
 	}
