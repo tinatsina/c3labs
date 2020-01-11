@@ -606,12 +606,20 @@ transform: rotate(45deg);
 	  position: fixed;
 	  width: auto;
 	  height: auto;
-	  background: gray;
+	  background: transparent;
 	  bottom: 20px;
 	  right: 5px;
+		border: 2px solid black;
 	  text-decoration: none;
 	  text-align: center;
 	  line-height: 50px;
 	  color: black;
 	  font-size: 22px;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-family: 'Raleway', sans-serif;
+	}
+	.gobottombtn:hover{
+		background: black;
+		color: white;
 	}
