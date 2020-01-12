@@ -610,23 +610,23 @@ transform: rotate(45deg);
   }
 	.gobottombtn{
 	  position: fixed;
-	  width: auto;
-	  height: auto;
-	  background: transparent;
+	  width: 4%;
+	  height: 9%;
+	  background-image: url(../img/apply1.png);
 	  bottom: 20px;
 	  right: 5px;
-		border: 2px solid black;
+		
 	  text-decoration: none;
 	  text-align: center;
-	  line-height: 50px;
-	  color: black;
+	  background-repeat: no-repeat;
+	  background-size: 100%;
 	  font-size: 22px;
 		padding-left: 5px;
 		padding-right: 5px;
 		font-family: 'Raleway', sans-serif;
 	}
 	.gobottombtn:hover{
-		background: black;
+		background-image: url(../img/apply2.png);
 		color: white;
 	}
 #malaysia{
@@ -669,6 +669,6 @@ transform: rotate(45deg);
 	background-repeat: no-repeat;
 }
 #thailand{
-	background-image: url(../countries/images/tha3.jpg);
+	background-image: url(../countries/images/tha2.jpg);
 	background-repeat: no-repeat;
 }
