@@ -20,7 +20,6 @@ h1, h2, h3, h4 {
 h2 {
 	font-weight: 400;
 	font-size: 38px;
-	color: #333;
 	text-transform: uppercase;
 	position: relative;
 	margin-top: 10px;
@@ -30,7 +29,6 @@ h2 {
 h2::after {
 	position: absolute;
 	content: "";
-	background: #d43031;
 	height: 2px;
 	width: 70px;
 	bottom: 0;
@@ -288,13 +286,21 @@ header .intro-text {
 #restaurant-menu .menu-section hr {
 	margin: 0 auto;
 }
-#restaurant-menu .menu-section {
+#restaurant-menu .menu-section{
+	height: 100px;
+}
+#restaurant-menu .menu-section h2 {
+font-weight: bold;
+padding-top: 35px;
+background-repeat: no-repeat;
 
 }
 #restaurant-menu .menu-section-title {
+
 	font-size: 32px;
 	font-weight: 400;
-	color: #444;
+	color: white;
+	text-shadow: 5px black;
 	margin: 20px 0;
 	text-align: center;
 }
@@ -623,3 +629,46 @@ transform: rotate(45deg);
 		background: black;
 		color: white;
 	}
+#malaysia{
+	background-image: url(../countries/images/mal1.jpg);
+	background-repeat: no-repeat;
+}
+#indonesia{
+	background-image: url(../countries/images/ind2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#taiwan{
+	background-image: url(../countries/images/twa1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+#china{
+	background-image: url(../countries/images/china1.jpg);
+	background-repeat: no-repeat;
+}
+#japan{
+	background-image: url(../countries/images/jap2.jpg);
+	background-repeat: no-repeat;
+}
+#korea{
+	background-image: url(../countries/images/kor3.jpg);
+	background-repeat: no-repeat;
+}
+#cambodia{
+	background-image: url(../countries/images/cam2.jpg);
+	background-repeat: no-repeat;
+}
+#vietnam{
+	background-image: url(../countries/images/viet2.jpg);
+	background-repeat: no-repeat;
+}
+#philippines{
+	background-image: url(../countries/images/phi3.jpg);
+	background-repeat: no-repeat;
+}
+#thailand{
+	background-image: url(../countries/images/tha3.jpg);
+	background-repeat: no-repeat;
+}
