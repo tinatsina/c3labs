@@ -589,12 +589,18 @@ transform: rotate(45deg);
   .service-box{
     max-width: 50%;
   }
+  .gobottombtn{
+	width: 12.5%;
+}
 }
 
 @media screen and (max-width:480px) {
   .service-box{
     max-width: 100%;
   }
+  .gobottombtn{
+	width: 12.5%;
+}
 }
 
 
@@ -607,14 +613,17 @@ transform: rotate(45deg);
 	.ten{
 		width: 100%;
 	}
+	.gobottombtn{
+		width: 12.5%;
+	}
   }
 	.gobottombtn{
 	  position: fixed;
-	  width: 10%;
+	  width: 5%;
 	  background-image: url(../img/apply1.png);
 	  bottom: 2.5%;
 	  right: 2.5%;
-	  padding-bottom: 10%;
+	  padding-bottom: 7%;
 	  text-decoration: none;
 	  text-align: center;
 	  background-repeat: no-repeat;
